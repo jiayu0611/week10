@@ -9,7 +9,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="newbutton.png" />
+    <None Remove="nwebutton.png" />
+    <None Remove="openbutton.jpg" />
+    <None Remove="openbutton.png" />
+    <None Remove="savebutton.png" />
+    <None Remove="trashbutton.jpg" />
+    <None Remove="trashbutton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Extended.Wpf.Toolkit" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="newbutton.png" />
+    <Resource Include="nwebutton.png" />
+    <Resource Include="openbutton.jpg" />
+    <Resource Include="openbutton.png" />
+    <Resource Include="savebutton.png" />
+    <Resource Include="trashbutton.jpg" />
+    <Resource Include="trashbutton.png" />
   </ItemGroup>
 
 </Project>
