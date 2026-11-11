@@ -20,5 +20,11 @@ namespace week10
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MyDocumen myDocumen = new MyDocumen();
+            myDocumen.Show();
+        }
     }
 }
